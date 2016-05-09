@@ -33,6 +33,7 @@ public class ClientRunner {
 	
 	private void initGUI() {
 		MainFrame mainFrame = new MainFrame();
+		mainFrame.setVisible(true);
 	}
 	
 	public void test(){
