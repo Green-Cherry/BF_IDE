@@ -6,6 +6,7 @@ import java.io.IOException;
 
 import service.IOService;
 
+//2.创建远程方法接口实现类
 public class IOServiceImpl implements IOService{
 	
 	@Override

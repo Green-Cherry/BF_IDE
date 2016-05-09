@@ -15,7 +15,7 @@ public class RemoteHelper {
 		DataRemoteObject dataRemoteObject;
 		try {
 			dataRemoteObject = new DataRemoteObject();
-			LocateRegistry.createRegistry(8888);
+			LocateRegistry.createRegistry(8888);//创建并导出接受指定 port 请求的本地主机上的 Registry 实例。
 			Naming.bind("rmi://localhost:8888/DataRemoteObject",
 					dataRemoteObject);
 		} catch (RemoteException e) {

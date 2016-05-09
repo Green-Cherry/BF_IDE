@@ -4,6 +4,7 @@ import java.rmi.RemoteException;
 
 import service.UserService;
 
+//2.创建远程方法接口实现类
 public class UserServiceImpl implements UserService{
 
 	@Override

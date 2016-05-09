@@ -4,6 +4,7 @@ package service;
 import java.rmi.Remote;
 import java.rmi.RemoteException;
 
+//1.创建远程方法接口，里面有想要的方法，必须throws RemoteException 
 public interface ExecuteService extends Remote {
 	
 	/**
